@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+input,label, select, button {
+  font-size: 18px;
+}
+
+.form {
+  display: grid;
+  border: 2px solid violet;
+  background-image: linear-gradient(lightpink, rgba(255, 200, 150, .2));
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 30px 30px 200px deeppink;
+  padding: 40px;
+  grid-template-columns: .6fr 1fr;
+}
+
+.input {
+  border: greenyellow 2px dotted;
+  direction: ltr;
+  font-size: 20px;
+  font-family: Andalus;
+  color: black;
+  padding-bottom: 1px;
+  margin-bottom: 18px;
+  text-align: justify;
+  text-transform: capitalize;
+  text-decoration: darkorange;
+  border-radius: 100px;
+}
+
+.select {
+  color: black;
+  border-radius: 100px;
+  font-family: Andalus;
+  text-shadow: 5px 2px 50px gray;
+  text-transform: capitalize;
+  height: 40px;
+}
+
+.button {
+  border-radius: 100px;
+  color: black;
+  font-family: Andalus;
+  padding-bottom: 1px;
+  text-transform: capitalize;
+  margin-top: 35px;
+}
+
+
+#s {
+  border: green 3px solid;
+  outline: black 2px solid;
+}
+
+#r {
+  border: red 3px solid;
+  outline: black 2px solid;
+  margin-left: 10px;
+}
+
+body {
+  background-image: linear-gradient(orange, orchid);
+}
+
+.l {
+  font-family: Andalus;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 25px;
+  text-align: justify;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 20px gray;
+}
